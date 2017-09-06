@@ -1,4 +1,4 @@
-# ReactNotification
+# ReactNative PushNotification
 
 How to integrate FCM (firebase cloud messaging) with react-native
 
@@ -6,9 +6,12 @@ How to integrate FCM (firebase cloud messaging) with react-native
 
 - How to integrate Google [Firebase Cloud Messagingn](https://firebase.google.com/docs/cloud-messaging/android/client) in an React Native App.
 - Recieve and Send Messages using FCM.
+- Show Badges for Notification count.
+- [Disable push notifcations for current app android java](https://stackoverflow.com/questions/37159392/disable-push-notifcations-for-current-app-android-java)
 
 
-<img src="Art/notification.png" width="30%"> <img src="Art/detail.png" width="30%">
+<img src="Art/notification.png" width="30%"> 
+<img src="Art/toggle.png" width="30%"> 
 
 ### Legal
 
