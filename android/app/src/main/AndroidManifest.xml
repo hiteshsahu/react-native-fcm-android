@@ -1,3 +1,13 @@
+<!--
+  ~
+  ~   Copyright (c) 2017. HiteshSahu.com- All Rights Reserved
+  ~   Unauthorized copying of this file, via any medium is strictly prohibited
+  ~   Proprietary and confidential.
+  ~   Written by Hitesh Sahu <hiteshkrsahu@Gmail.com>, 2017.
+  ~
+  ~
+  -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hitesh_sahu.reactnotification"
     android:versionCode="1"
@@ -29,13 +39,13 @@
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
 
         <!-- Firebase Notifications -->
-        <service android:name="com.hitesh_sahu.fcm.MyFirebaseMessagingService">
+        <service android:name="com.hitesh_sahu.fcm.service.ReactFireBaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <service android:name="com.hitesh_sahu.fcm.MyFirebaseInstanceIDService">
+        <service android:name="com.hitesh_sahu.fcm.service.ReactFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>

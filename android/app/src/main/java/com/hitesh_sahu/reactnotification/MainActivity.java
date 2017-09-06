@@ -1,3 +1,13 @@
+/*
+ *
+ *   Copyright (c) 2017. HiteshSahu.com- All Rights Reserved
+ *   Unauthorized copying of this file, via any medium is strictly prohibited
+ *   Proprietary and confidential.
+ *   Written by Hitesh Sahu <hiteshkrsahu@Gmail.com>, 2017.
+ *
+ *
+ */
+
 package com.hitesh_sahu.reactnotification;
 
 import android.content.BroadcastReceiver;
@@ -13,8 +23,8 @@ import android.widget.Toast;
 
 import com.facebook.react.ReactActivity;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.hitesh_sahu.fcm.Config;
-import com.hitesh_sahu.fcm.NotificationUtils;
+import com.hitesh_sahu.utils.Config;
+import com.hitesh_sahu.utils.NotificationUtils;
 
 public class MainActivity extends ReactActivity {
 

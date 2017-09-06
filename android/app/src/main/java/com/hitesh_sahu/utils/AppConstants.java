@@ -8,6 +8,12 @@
  *
  */
 
-rootProject.name = 'ReactNotification'
+package com.hitesh_sahu.utils;
 
-include ':app'
+/**
+ * Created by hitesh.sahu on 7/13/2017.
+ */
+
+public interface AppConstants {
+    String ENABLE_NOTIFICATION = "ShowNotification";
+}

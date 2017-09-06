@@ -1,4 +1,14 @@
-package com.hitesh_sahu.fcm;
+/*
+ *
+ *   Copyright (c) 2017. HiteshSahu.com- All Rights Reserved
+ *   Unauthorized copying of this file, via any medium is strictly prohibited
+ *   Proprietary and confidential.
+ *   Written by Hitesh Sahu <hiteshkrsahu@Gmail.com>, 2017.
+ *
+ *
+ */
+
+package com.hitesh_sahu.fcm.service;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,9 +17,10 @@ import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
- 
-public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
-    private static final String TAG = MyFirebaseInstanceIDService.class.getSimpleName();
+import com.hitesh_sahu.utils.Config;
+
+public class ReactFirebaseInstanceIDService extends FirebaseInstanceIdService {
+    private static final String TAG = ReactFirebaseInstanceIDService.class.getSimpleName();
  
     @Override
     public void onTokenRefresh() {

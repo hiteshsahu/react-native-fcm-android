@@ -1,5 +1,15 @@
 apply plugin: "com.android.application"
 
+/*
+ *
+ *   Copyright (c) 2017. HiteshSahu.com- All Rights Reserved
+ *   Unauthorized copying of this file, via any medium is strictly prohibited
+ *   Proprietary and confidential.
+ *   Written by Hitesh Sahu <hiteshkrsahu@Gmail.com>, 2017.
+ *
+ *
+ */
+
 import com.android.build.OutputFile
 
 /**
@@ -139,6 +149,7 @@ dependencies {
     compile "com.facebook.react:react-native:+"  // From node_modules
     compile 'com.google.firebase:firebase-core:10.2.6'
     compile 'com.google.firebase:firebase-messaging:10.2.6'
+    compile "me.leolin:ShortcutBadger:1.1.18@aar"
 }
 
 // Run this once to be able to run the application with BUCK
