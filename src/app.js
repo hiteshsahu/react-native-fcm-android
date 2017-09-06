@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactFCM from './ReactFCM';
+import ReactFCM from './module/ReactFCM';
 import { Platform } from 'react-native';
 import Style from './Style';
 import {
